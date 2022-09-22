@@ -1,1 +1,1 @@
-www.jruizproject.com
+$ dig www.jruizproject.com +nostats +nocomments +nocmd
