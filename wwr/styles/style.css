@@ -2,13 +2,12 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a {
+.a {
     text-align: center;
+    color: #A6CAF0;
+    text-decoration: none;
 }
-#hero_mgs.h1 {
-    text-align: center;
-}
-#hero_mgs.h4 {
+#hero-msg h1, #hero-msg h4 {
     text-align: center;
 }
 .button-box {
@@ -25,20 +24,37 @@ body {
     background-color: #A6CAF0;
 }
 header {
-    background-color: #A6CAF0;
+    text-align:  center;
+    background-color: #FF2020;
+    color:#A6CAF0;
 }
 nav a:hover {
-    background-color: #A6CAF0;
+    background-color: #002040;
+    color:#A6CAF0;
 }
 book, .join {
+    text-decoration: none;
     background-color: #A6CAF0;
 }
 .book:hover, .join:hover {
-    background-color: #A6CAF0;
+    background-color: #002040;
+    color:#A6CAF0
+    
 }
 .msg {
     background-color: #A6CAF0;
 }
 footer {
     background-color: #A6CAF0;
+    text-decoration: none;
+}
+footer p {
+    text-align: center;
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}   
+.logo {
+    width: 80px;
 }
