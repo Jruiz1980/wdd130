@@ -1,7 +1,19 @@
-#content{
-max-width: 1600px;
-margin: 0 auto;
+#content {
+        max-width: 1600px;
+        margin: 0 auto;
 }
-nav {
-text-align: center;
+.add {
+        text-align: center;
+}
+#hero_mgs.h1 {
+        text-align: center;
+}
+#hero_mgs.h4 {
+        text-align: center;
+}
+.button-box {
+        text-align: center;
+}
+.home-grid {
+        text-align: center;
 }
