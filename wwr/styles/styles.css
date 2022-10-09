@@ -1,19 +1,44 @@
 #content {
-        max-width: 1600px;
-        margin: 0 auto;
+    max-width: 1600px;
+    margin: 0 auto;
 }
-.add {
-        text-align: center;
+nav a {
+    text-align: center;
 }
 #hero_mgs.h1 {
-        text-align: center;
+    text-align: center;
 }
 #hero_mgs.h4 {
-        text-align: center;
+    text-align: center;
 }
 .button-box {
-        text-align: center;
+    text-align: center;
 }
 .home-grid {
-        text-align: center;
+    text-align: center;
+}
+#background {
+    height: 725px;
+    background-color: #A6CAF0;
+}
+body {
+    background-color: #A6CAF0;
+}
+header {
+    background-color: #A6CAF0;
+}
+nav a:hover {
+    background-color: #A6CAF0;
+}
+book, .join {
+    background-color: #A6CAF0;
+}
+.book:hover, .join:hover {
+    background-color: #A6CAF0;
+}
+.msg {
+    background-color: #A6CAF0;
+}
+footer {
+    background-color: #A6CAF0;
 }
