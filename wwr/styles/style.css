@@ -3,11 +3,12 @@
     margin: 0 auto;
 }
 .a {
-    text-align: left;
+    font-family: "EB Garamond";
     color: #A6CAF0;
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
+    font-family: Share;
     width: 100%;
     text-align: center;
 }
@@ -25,6 +26,7 @@ body {
     background-color: #A6CAF0;
 }
 header {
+    font-family: "EB Garamond";
     background-color: #FF2020;
     color:#A6CAF0;
 }
@@ -33,6 +35,7 @@ nav a:hover {
     color:#A6CAF0;
 }
 book, .join {
+    font-family: "EB Garamond";
     background-color: #A6CAF0;
     text-decoration: none;
 }
@@ -42,9 +45,11 @@ book, .join {
     text-decoration: underline;
 }
 .msg {
+    font-family: Share;
     background-color: #A6CAF0;
 }
 footer {
+    font-family: "EB Garamond";
     background-color: #A6CAF0;
     text-decoration: none;
 }
