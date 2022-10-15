@@ -4,11 +4,15 @@
 }
 .a {
     font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
     color: #A6CAF0;
     text-decoration: none;
 }
 #hero-msg h1, #hero-msg h4 {
-    font-family: Share;
+    font-family: "EB Garamond";
+    font-style: italic;
     width: 100%;
     text-align: center;
 }
@@ -16,6 +20,8 @@
     text-align: center;
 }
 .home-grid {
+    font-family: "EB Garamond";
+    font-style: italic;
     text-align: center;
 }
 #background {
@@ -27,6 +33,9 @@ body {
 }
 header {
     font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
     background-color: #FF2020;
     color:#A6CAF0;
 }
@@ -34,8 +43,11 @@ nav a:hover {
     background-color: #002040;
     color:#A6CAF0;
 }
-book, .join {
+.book, .join {
     font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
     background-color: #A6CAF0;
     text-decoration: none;
 }
@@ -44,12 +56,22 @@ book, .join {
     color:#A6CAF0;
     text-decoration: underline;
 }
-.msg {
-    font-family: Share;
+.msg h2{
+    font-family: "EB Garamond";
+    font-style: it;
     background-color: #A6CAF0;
+    text-align: center;
+}
+.msg {
+    font-family: Share, Helvetica, Sans-Serif;
+    background-color: #A6CAF0;
+    text-align: center;
 }
 footer {
     font-family: "EB Garamond";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
     background-color: #A6CAF0;
     text-decoration: none;
 }
