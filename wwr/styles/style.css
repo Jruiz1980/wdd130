@@ -42,7 +42,7 @@ body {
     padding: 0;
 }
 #logo_link {
-    padding: 15px 30px;
+    padding: 30px 45px;
 }
 header {
     font-family: "EB Garamond";
@@ -60,10 +60,10 @@ nav a:hover {
     font-style: italic;
     font-weight: 400;
     font-size: 18px;
-    background-color: #A6CAF0;
     text-decoration: none;
+    background-color: #A6CAF0;
     margin-top: 50px;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .book:hover, .join:hover {
     background-color: #002040;
