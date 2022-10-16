@@ -70,11 +70,14 @@ nav a:hover {
     color:#A6CAF0;
     text-decoration: underline;
 }
+.mountains {
+    border: 10px solid #002040;
+    }
 .msg h2{
     font-family: "EB Garamond";
     font-style: italic;
-    color: #002040;
-    background-color: #A6CAF0;
+    color: #A6CAF0;
+    background-color: #002040;
     text-align: center;
     padding: 35px;
 }
@@ -82,8 +85,8 @@ nav a:hover {
     font-family: Share, Helvetica, Sans-Serif;
     font-size: 0.8em;
     line-height: 1.5em;
-    color: #002040;
-    background-color: #A6CAF0;
+    color: #A6CAF0;
+    background-color: #002040;
     text-align: center;
     padding-bottom: 15px;
 }
@@ -91,16 +94,19 @@ footer {
     font-family: "EB Garamond";
     font-style: italic;
     font-weight: 400;
-    color: #002040;
-    background-color: #A6CAF0;
+    color: #A6CAF0;
+    background-color: #002040;
     text-decoration: none;
     padding: 25px 50px;
     margin-top: 200px;
 }
-footer p {
+footer p a {
     font-size: 0.9em;
+    color:#A6CAF0;
 }
 footer p a:hover {
+    background-color: #A6CAF0;
+    color:#002040;
     text-decoration: underline;
 }   
 .logo {
