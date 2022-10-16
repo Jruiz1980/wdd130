@@ -13,6 +13,7 @@
 #hero-msg h1, #hero-msg h4 {
     font-family: "EB Garamond";
     font-style: italic;
+    color: #002040;
     width: 100%;
     text-align: center;
     margin-top: 10px;
@@ -26,6 +27,7 @@
 .home-grid {
     font-family: "EB Garamond";
     font-style: italic;
+    color: #002040;
     text-align: center;
     margin: 200px 0;
     box-sizing: border-box;
@@ -71,6 +73,7 @@ nav a:hover {
 .msg h2{
     font-family: "EB Garamond";
     font-style: italic;
+    color: #002040;
     background-color: #A6CAF0;
     text-align: center;
     padding: 35px;
@@ -79,6 +82,7 @@ nav a:hover {
     font-family: Share, Helvetica, Sans-Serif;
     font-size: 0.8em;
     line-height: 1.5em;
+    color: #002040;
     background-color: #A6CAF0;
     text-align: center;
     padding-bottom: 15px;
@@ -87,6 +91,7 @@ footer {
     font-family: "EB Garamond";
     font-style: italic;
     font-weight: 400;
+    color: #002040;
     background-color: #A6CAF0;
     text-decoration: none;
     padding: 25px 50px;
