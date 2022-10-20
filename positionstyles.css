@@ -8,7 +8,7 @@ grid-template-rows: 50px 100px 100px 50px;
 grid-gap: 10px;
 }
 .red1 { 
-  width:310px; 
+  width:100%; 
   height: 50px; 
   background-color: red; 
   grid-column: 1/3;
@@ -26,7 +26,7 @@ grid-gap: 10px;
   justify-self:center;
 } 
 .blue1 {
-  width: 310px; 
+  width: 100%; 
   height: 50px; 
   background-color: blue; 
   grid-column: 1/3;
@@ -34,6 +34,7 @@ grid-gap: 10px;
 /* Activity 2 styles */ 
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+
 }
 .red2 {
   width: 100px; 
