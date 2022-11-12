@@ -40,3 +40,32 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
+footer {
+    font-family: "EB Garamond", Verdana, serif;
+    font-style: italic;
+    font-weight: 400;
+    color: #A6CAF0;
+    background-color: #002040;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p a {
+    font-size: 1.2em;
+    color:#A6CAF0;
+}
+footer p a:hover {
+    background-color: #A6CAF0;
+    color:#002040;
+    text-decoration: underline;
+}   
+.logo {
+    width: 80px;
+}
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
