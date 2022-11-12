@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Share&display=swap');
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    font-family: "EB Garamond", Verdana, serif;
+    font-weight: 200;
+    background-color: #FF2020;
+    color:#A6CAF0;
+    display: grid;
+    grid-template-columns: 150px auto;
+    opacity: 0.8;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-decoration: none;
+    color: #fcfbfb;
+    text-align: center;
+    padding: 35px;
+}
+a {
+    font-family: "EB Garamond", Verdana, serif;
+    font-style: italic;
+    font-size: 1.3em;
+    color: #002040;
+    padding: 35px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #002040;
+    color:#A6CAF0;
+}
+#logo_link {
+    padding: 30px 45px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
