@@ -40,11 +40,11 @@ nav a:hover {
     justify-self: center;
     align-self: center;
 }
-
-
-
-
-
+body {
+    background-color: #A6CAF0;
+    margin: 0;  
+    padding: 0;
+}
 footer {
     font-family: "EB Garamond", Verdana, serif;
     font-style: italic;
