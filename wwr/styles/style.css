@@ -227,6 +227,17 @@ footer p a:hover {
     padding: 35px;
     color:#002040;
 }
+
+#grid {
+    display: grid;
+    grid-template-columns:repeat(10, 1fr);
+    grid-template-rows:repeat(10, 1fr);
+}
+
+.raftings {
+    grid-column:9/11;
+    grid-row: 1/4;
+}
 /*---------------------------------------------------------------*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
