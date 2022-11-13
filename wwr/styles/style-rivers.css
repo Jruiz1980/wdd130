@@ -76,6 +76,12 @@ body {
     margin-top: 10px;
 }
 
+.idaho, .utah, .arizona, .oregon {
+    font-family: Share, Helvetica, Sans-Serif;
+    text-align: left;
+    padding: 35px;
+    color:#002040;
+}
 /*----------------------------------------------------------------------------*/
 footer {
     font-family: "EB Garamond", Verdana, serif;
