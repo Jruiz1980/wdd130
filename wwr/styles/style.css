@@ -199,6 +199,12 @@ footer p a:hover {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 100px auto;
+
+}
+.lodging-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 100px auto;
 }
 .rivers h2 , .lodging h2 {
     font-family: "EB Garamond", Verdana, Sans-Serif;
@@ -210,10 +216,14 @@ footer p a:hover {
     border-radius: 5px;
     padding: 15px 30px;
     width: 80px;
+    align-content: center;
 }
 .rivers h2 {
     grid-column:2/7;
 
+}
+.lodging h2 {
+    grid-column:3/8;
 }
 .R1, .R2, .R3, .R4 {
     font-family: "EB Garamond", Verdana, Sans-Serif;
@@ -237,37 +247,56 @@ footer p a:hover {
     padding: 10px;
     color:#002040;
 }
-
+.salmon, .green, .canyon, .rogue {
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width:300px;
+    padding: 50px;
+}
+.sid, .lut, .paz, .ror {
+    height: auto;
+    width: auto;
+    max-height: 300px;
+    max-width:300px;
+    padding: 50px;
+}
+.raft {
+    height: auto;
+    width:auto;
+    max-height: 1200px;
+    max-width:800px;
+}
 #grid {
     margin: 100px 0;
 }
 #raftings {
-    grid-column: 8/11;
-    grid-row:2/6;
-    object-fit: contain;
-
+    grid-column: 7/11;
+    grid-row:2/8;
 }
 #lodgings {
-    /*grid-column:1/4;
-    grid-row:7/13;*/
+    grid-column:1/4;
+    grid-row:9/15;
 }
 #riverID {
     grid-column:1/2;
     grid-row:2/3;
-    width:100px;
-    height: auto;
+    align-items: center;
 }
 #riverUT {
     grid-column:1/2;
     grid-row:3/4;
+    align-items: center;
 }
 #riverAZ {
     grid-column:1/2;
     grid-row:4/5;
+    align-items: center;
 }
 #riverOR {
     grid-column:1/2;
     grid-row:5/6;
+    align-items: center;
 }
 
 .idaho {
@@ -285,9 +314,39 @@ footer p a:hover {
 .oregon {
     grid-column:2/7;
     grid-row:5/6;
-
 }
-
+#lodgeID {
+    grid-column:10/11;
+    grid-row:8/9;
+}
+#lodgeUT {
+    grid-column:10/11;
+    grid-row:9/10;
+}
+#lodgeAZ {
+    grid-column:10/11;
+    grid-row:10/11;
+}
+#lodgeOR {
+    grid-column:10/11;
+    grid-row:11/12;
+}
+.ID {
+    grid-column:5/10;
+    grid-row:8/9;
+}
+.UT {
+    grid-column:5/10;
+    grid-row:9/10;
+}
+.AZ {
+    grid-column:5/10;
+    grid-row:10/11;
+}
+.OR {
+    grid-column:5/10;
+    grid-row:11/12;
+}
 /*---------------------------------------------------------------*/
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
