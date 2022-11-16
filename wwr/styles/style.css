@@ -196,8 +196,8 @@ footer p a:hover {
 }
 /*--------------------------------------------------*/
 .river-grid{
-    /*grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: repeat(30, 1fr);*/
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
 .rivers h2 , .lodging h2 {
     font-family: "EB Garamond", Verdana, Sans-Serif;
@@ -209,7 +209,9 @@ footer p a:hover {
     border-radius: 5px;
     padding: 15px 30px;
     width: 80px;
-
+}
+.rivers h2 {
+    grid-column:4/5;
 }
 .R1, .R2, .R3, .R4 {
     font-family: "EB Garamond", Verdana, Sans-Serif;
@@ -230,44 +232,53 @@ footer p a:hover {
 .idaho, .utah, .arizona, .oregon {
     font-family: Share, Helvetica, Sans-Serif;
     text-align: left;
-    padding: 35px;
+    padding: 10px;
     color:#002040;
 }
 
 #grid {
     margin: 100px 0;
-    display: grid;
-    grid-template-columns: repeat(10, 160px);
-    grid-template-rows: repeat(20, 160px);
 }
 #raftings {
-    grid-area: 1/7/6/10;
-    /*object-fit: contain;*/
+    grid-column: 8/11;
+    grid-row:2/6;
+    object-fit: contain;
 
 }
 #lodgings {
-    grid-column:1/4;
-    grid-row:7/13;
+    /*grid-column:1/4;
+    grid-row:7/13;*/
 }
 #riverID {
-    grid-column:;
-    grid-row:;
+    grid-column:1/2;
+    grid-row:2/3;
 }
 #riverUT {
-    grid-column:;
-    grid-row:;
+    grid-column:1/2;
+    grid-row:3/4;
 }
 #riverAZ {
-    grid-column:;
-    grid-row:;
+    grid-column:1/2;
+    grid-row:4/5;
 }
 #riverOR {
-    grid-column:;
-    grid-row:;
+    grid-column:1/2;
+    grid-row:5/6;
 }
 
-.idaho, .utah, .arizona, .oregon {
-    grid-column:;
+.idaho {
+    grid-column:2/7;
+    grid-row:2/3;
+}
+.utah {
+    grid-column:2/7;
+} 
+.arizona {
+    grid-column:2/7;
+}
+.oregon {
+    grid-column:2/7;
+
 }
 
 /*---------------------------------------------------------------*/
