@@ -216,14 +216,14 @@ footer p a:hover {
     border-radius: 5px;
     padding: 15px 30px;
     width: 80px;
-    align-content: center;
+    align-items: center;
 }
-.rivers h2 {
-    grid-column:2/7;
+.rivers {
+    grid-column:4/6;
 
 }
-.lodging h2 {
-    grid-column:3/8;
+.lodging {
+    grid-column:6;
 }
 .R1, .R2, .R3, .R4 {
     font-family: "EB Garamond", Verdana, Sans-Serif;
