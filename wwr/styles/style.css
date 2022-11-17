@@ -272,13 +272,14 @@ footer p a:hover {
     height: auto;
     width:auto;
     max-height: 1200px;
-    max-width:800px;
+    max-width: 800px;
 }
 .lodge {
     height: auto;
-    width:auto;
+    width: auto;
     max-height: 1200px;
-    max-width:800px;
+    max-width: 800px;
+    align-items: center;
 }
 #grid {
     margin: 100px 0;
@@ -289,7 +290,7 @@ footer p a:hover {
 }
 #lodgings {
     grid-column:1/4;
-    grid-row:9/15;
+    grid-row:8/12;
 }
 #riverID {
     grid-column:1/2;
@@ -345,19 +346,19 @@ footer p a:hover {
     grid-row:11/12;
 }
 .ID {
-    grid-column:5/10;
+    grid-column:4/10;
     grid-row:8/9;
 }
 .UT {
-    grid-column:5/10;
+    grid-column:4/10;
     grid-row:9/10;
 }
 .AZ {
-    grid-column:5/10;
+    grid-column:4/10;
     grid-row:10/11;
 }
 .OR {
-    grid-column:5/10;
+    grid-column:4/10;
     grid-row:11/12;
 }
 /*---------------------------------------------------------------*/
