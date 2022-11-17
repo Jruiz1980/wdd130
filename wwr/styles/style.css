@@ -279,7 +279,6 @@ footer p a:hover {
     width: auto;
     max-height: 1200px;
     max-width: 800px;
-    align-items: center;
 }
 #grid {
     margin: 100px 0;
@@ -346,19 +345,19 @@ footer p a:hover {
     grid-row:11/12;
 }
 .ID {
-    grid-column:4/10;
+    grid-column:5/10;
     grid-row:8/9;
 }
 .UT {
-    grid-column:4/10;
+    grid-column:5/10;
     grid-row:9/10;
 }
 .AZ {
-    grid-column:4/10;
+    grid-column:5/10;
     grid-row:10/11;
 }
 .OR {
-    grid-column:4/10;
+    grid-column:5/10;
     grid-row:11/12;
 }
 /*---------------------------------------------------------------*/
