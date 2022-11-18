@@ -223,7 +223,7 @@ footer p a:hover {
 
 }
 .lodging {
-    grid-column:6;
+    grid-column:6/8;
 }
 .R1, .R2, .R3, .R4 {
     font-family: "EB Garamond", Verdana, Sans-Serif;
