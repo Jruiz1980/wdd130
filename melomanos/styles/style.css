@@ -2,6 +2,7 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    background-color:#F5EFFF;
 }
 nav {
     background-color: #E5D9F2;
@@ -38,9 +39,13 @@ header{
 #logo_link {
     padding: 30px 45px;
     padding-top: 5px;
+    padding-bottom:0;
     justify-self: center;
     align-self: center;
 }
 .logo{
     width:80px;
+}
+.home-grid{
+    background-color:#F5EFFF;
 }
