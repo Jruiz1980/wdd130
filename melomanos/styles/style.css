@@ -65,6 +65,7 @@ h1{
     font-size:1.1em;
     color:white;
     background-color:#7371FC;
+    justify-content: center;
 }
 #piano{
     display:grid;
@@ -84,20 +85,20 @@ h1{
 }
 #piano-msg{
     grid-column:3/5;
-    grid-row:2/4;
-    z-index:1;
-    padding:20px;
+    grid-row:3/5;
+    z-index:2;
+    padding:10px;
     border:solid;
     opacity: 0.7;
 }
 #boy{
     display:grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: 150px 150px 75px 150px 150px 150px;   
+    grid-template-rows: 150px 150px 150px 75px 150px 150px;   
 }
 #boy-box{
     grid-column:1/6;
-    grid-row:1/6;
+    grid-row:1/7;
 }
 #boy-img{
     width:100%;
