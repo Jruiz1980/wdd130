@@ -27,5 +27,11 @@ nav a:hover {
     background-color: #A594F9;
 }
 header{
-    font-family: Fasthand;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+#logo_link {
+    padding: 30px 45px;
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
 }
