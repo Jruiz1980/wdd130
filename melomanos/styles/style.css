@@ -62,8 +62,57 @@ h1{
 }
 #piano-msg, #boy-msg{
     font-family:Roboto, Helvetica, sans-serif;
+    font-size:1.1em;
     color:white;
     background-color:#7371FC;
+}
+#piano{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 150px);
+}
+#piano-box{
+    grid-column:1/7;
+    grid-row:1/6;
+}
+#piano-img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    justify-items: center;
+
+}
+#piano-msg{
+    grid-column:3/5;
+    grid-row:2/4;
+    z-index:1;
+    padding:20px;
+    border:solid;
+    opacity: 0.7;
+}
+#boy{
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 150px 150px 75px 150px 150px 150px;   
+}
+#boy-box{
+    grid-column:1/6;
+    grid-row:1/6;
+}
+#boy-img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    justify-items: left;
+
+}
+#boy-msg{
+    grid-column:4/7;
+    grid-row:2/4;
+    z-index:1;
+    padding:10px;
+    border:solid;
+    opacity: 0.7;
 }
 footer {
     font-family: Fasthand;
