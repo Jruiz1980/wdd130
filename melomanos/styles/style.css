@@ -46,13 +46,40 @@ header{
 .logo{
     width:120px;
 }
+.icon{
+    width: 80px;
+    padding-top: 10px;
+}
 h1{
     font-family: Fasthand;
     font-size:2.5em;
     text-align: center;
     color:#7371FC;
 }
-section{
+#piano-msg, #boy-msg{
     font-family:Roboto, Helvetica, sans-serif;
+    color:white;
+    background-color:#7371FC;
+}
+footer {
+    font-family: Fasthand;
+    font-weight: 400;
+    font-size:1.3em;
+    color: #7371FC;
+    background-color:#E5D9F2;
+    text-decoration: none;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p a {
+    font-size: 1.2em;
     color:#7371FC;
 }
+footer p a:hover {
+    color: white;
+    background-color: #A594F9;
+    text-decoration: underline;
+}   
