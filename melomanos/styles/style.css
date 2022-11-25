@@ -86,7 +86,7 @@ h1{
 #piano-msg{
     grid-column:3/5;
     grid-row:3/5;
-    z-index:2;
+    z-index:1;
     padding:10px;
     border:solid;
     opacity: 0.7;
