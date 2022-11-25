@@ -44,8 +44,15 @@ header{
     align-self: center;
 }
 .logo{
-    width:80px;
+    width:120px;
 }
-.home-grid{
-    background-color:#F5EFFF;
+h1{
+    font-family: Fasthand;
+    font-size:2.5em;
+    text-align: center;
+    color:#7371FC;
+}
+section{
+    font-family:Roboto, Helvetica, sans-serif;
+    color:#7371FC;
 }
