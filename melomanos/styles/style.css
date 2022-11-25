@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto&display=swap');
+nav {
+    background-color: #E5D9F2;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav  {
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:link, nav a:visited {
+    color: #7371FC;
+}
+nav a:hover {
+    color: white;
+    background-color: #A594F9;
+}
