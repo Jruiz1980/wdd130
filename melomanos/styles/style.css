@@ -109,7 +109,7 @@ h1{
 }
 #boy-msg{
     grid-column:4/7;
-    grid-row:2/4;
+    grid-row:3/5;
     z-index:1;
     padding:10px;
     border:solid;
