@@ -7,11 +7,12 @@ nav {
     background-color: #E5D9F2;
     line-height: 3em;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.1em;
+    font-weight: 200;
 }
 nav  {
-    list-style-type: none;
     display: flex;
+    justify-content: space-around;
 }
 nav a {
     padding:1em;
@@ -27,11 +28,19 @@ nav a:hover {
     background-color: #A594F9;
 }
 header{
-    font-family: Roboto, Helvetica, sans-serif;
-}
+    font-family: Fasthand, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    background-color:#E5D9F2;
+    display: grid;
+    grid-template-columns: 150px auto;
+    }
 #logo_link {
     padding: 30px 45px;
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
+.logo{
+    width:80px;
 }
