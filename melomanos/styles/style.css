@@ -143,7 +143,7 @@ h1{
 }
 #list{
     grid-column:3/5;
-    grid-row:4/9;
+    grid-row:5/9;
     z-index:1;
 }
 #title2{
@@ -192,14 +192,16 @@ footer p a:hover {
     color:white
 }
 table {
-    width: 70%;
+    width: 90%;
     border: 1px solid #7371FC;
     border-collapse: separate;
     border-spacing: 5px;
     background: #000 url("gradient3.gif") bottom left repeat-x;
     color: #fff;
 }
-th, td {
+td {
+    font-family:Roboto, Helvetica, sans-serif;
+    font-style:italic;
     width: 25%;
     text-align: left;
     vertical-align: top;
@@ -209,6 +211,6 @@ th, td {
     background: #fff;
     color: #000;
 }
-caption {
-    padding: 0.3em;
+#list tbody tr.odd td{
+    background-color:#E5D9F2;
 }
