@@ -60,7 +60,7 @@ h1{
     text-align: center;
     color:#7371FC;
 }
-#piano-msg, #boy-msg{
+#piano-msg, #boy-msg, #exe-msg1{
     font-family:Roboto, Helvetica, sans-serif;
     font-size:1.1em;
     color:white;
