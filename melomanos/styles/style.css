@@ -159,3 +159,24 @@ footer p a:hover {
     background-color:#7371FC;
     color:white
 }
+table {
+    width: 60%;
+    border: 1px solid #7371FC;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #000 url("gradient3.gif") bottom left repeat-x;
+    color: #fff;
+}
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #7371FC;
+    border-collapse: collapse;
+    padding: 0.3em;
+    background: #fff;
+    color: #000;
+}
+caption {
+    padding: 0.3em;
+}
