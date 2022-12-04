@@ -120,7 +120,7 @@ h1{
 #song-grid{
     display:grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(9, 150px);
+    grid-template-rows: repeat(11, 150px);
 }
 #exe-msg1{
     grid-column:1/4;
@@ -139,7 +139,7 @@ h1{
 }
 #song2{
     grid-column:1/4;
-    grid-row:6/8;
+    grid-row:7/9;
 }
 #list{
     grid-column:3/5;
