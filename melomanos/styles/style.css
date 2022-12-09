@@ -130,7 +130,7 @@ h1{
 }
 #exe-msg{
     grid-column:1/4;
-    grid-row:8/10;
+    grid-row:10/12;
     padding:20px;
     border:solid;
 }
@@ -153,7 +153,7 @@ h1{
 }
 #exe2{
     grid-column:4/7;
-    grid-row:8/10;
+    grid-row:7/9;
 }
 #list, #list2{
     grid-column:3/5;
