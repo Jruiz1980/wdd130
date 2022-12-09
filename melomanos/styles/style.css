@@ -60,7 +60,7 @@ h1{
     text-align: center;
     color:#7371FC;
 }
-#piano-msg, #boy-msg, #exe-msg1{
+#piano-msg, #boy-msg, #exe-msg1, #exe-msg{
     font-family:Roboto, Helvetica, sans-serif;
     font-size:1.1em;
     color:white;
@@ -125,6 +125,10 @@ h1{
 #exe-msg1{
     grid-column:1/4;
     grid-row:2/4;
+    padding:10px;
+    border:solid;
+}
+#exe-msg{
     padding:10px;
     border:solid;
 }
